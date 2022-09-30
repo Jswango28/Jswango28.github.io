@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+}
+h1, h2, h3 {
+  text-align: center
+}
+
+#wrapper {
+  width:80%;
+  margin: auto;
+  background-color: lightseagreen;
+  box-shadow: 25px 15px;
+}
+div {
+  width:90%;
+  margin: auto;
+}
+.itembox {
+  p.inset {border-style: inset;}
+  border-radius: 10px 10px;
+  box-shadow: 6px 8px;
+  background-color: lightpink;
+  color: darkblue;
+   padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+.favorite {
+  p.double {border-style: double;}
+  border-radius: 10px 10px;
+  box-shadow: 6px 8px;
+  background-color: lightskyblue;
+  color: deeppink;
+   padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+ol {
+  background-color: lightgreen;
+  padding: 20px;
+ 
+}
+ ol.i {list-style-type: hebrew;}
+  ol li {
+  background-color: mediumaquamarine;
+  padding: 5px;
+}
+ ul.c {
+  background-color: plum;
+  padding: 10px;
+}
+ ul.c {list-style-type: square;}
+  ul.c li {
+  background-color: palevioletred;
+  padding: 5px;
+}
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #111;
+}
